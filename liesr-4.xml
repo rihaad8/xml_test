@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE doc SYSTEM "liesr-5.dtd">
+<doc>
+	<listeprof>
+		<prof id = "dvs">
+			<name>Datenverwaltungssysteme</name>
+			<vorsitz>Prof. Dr. Wolfgang Benn</vorsitz>
+			<kontakt>dvs@tu-chemnitz.de</kontakt>
+		</prof>
+		<prof id = "prowi">
+			<name>Produktionswirtschaft und Industriebetriebslehre</name>
+			<vorsitz>Prof. Dr. Joachim Kaeschel</vorsitz>
+			<kontakt>joachim.kaeschel@wirtschaft.tu-chemnitz.de</kontakt>
+		</prof>
+		<prof id = "wimathe">
+			<name>Wirtschaftsmathematik</name>
+			<vorsitz>Dr. Alexander Broesch</vorsitz>
+				<vertretung>Dr. Daniel Rudolf</vertretung>
+			<kontakt>daniel.rudolf@mathematik.tu-chemnitz.de</kontakt>
+		</prof>
+		<prof id = "mikro">
+			<name>Mikrooekonomie</name>
+			<vorsitz>Prof. Dr. Fritz Helmedag</vorsitz>
+			<kontakt>fritz.helmedag@wirtschaft.tu-chemnitz.de</kontakt>
+		</prof>
+		<prof id = "winfoI">
+			<name>Wirtschaftsinformatik I</name>
+			<vorsitz>Prof. Dr. Barbara Dinter</vorsitz>
+			<kontakt>barbara.dinter@wirtschaft.tu-chemnitz.de</kontakt>
+		</prof>
+		<prof id = "marketing">
+			<name>Marketing und Handelsbetriebslehre</name>
+			<vorsitz>Prof. Dr. Cornelia Zager</vorsitz>
+			<kontakt>Simone.Sprunk@wirtschaft.tu-chemnitz.de</kontakt>
+		</prof>
+		<prof id = "unternehmensrechnung">
+			<name>Unternehmensrechnung und Controlling</name>
+			<vorsitz>Prof. Dr. Uwe Goetze</vorsitz>
+			<kontakt>brigitte.becker@wirtschaft.tu-chemnitz.de</kontakt>
+		</prof>
+		<prof id = "wirtschaftsrecht">
+			<name>Oeffentliches Recht und Wirtschaftsrecht</name>
+			<vorsitz>Prof. Dr. Ludwig Gramlich</vorsitz>
+			<kontakt>c.schmidt@wirtschaft.tu-chemnitz.de</kontakt>
+		</prof>
+	</listeprof>
+
+
+	<listevl>
+		<typ id = "V">Vorlesung</typ>
+		<typ id = "U">Uebung</typ>
+		<typ id = "P">Praktikum</typ>
+	
+		<wocheart id = "W">woechentlich</wocheart>
+		<wocheart id = "A">gerade</wocheart>
+		<wocheart id = "B">ungerade</wocheart>	
+	
+		<lv id="lv1">
+			<name>Grundlagen der Produktionswirtschft</name>
+			<termin>
+				<art ref ="V">	</art>
+				<dozent>Joachim Kaeschel</dozent>
+				<raum>2/N115</raum>
+				<tag>Montag</tag>
+				<zeit>07:30-09:00</zeit>
+				<woche woc = "W"/>
+			</termin>
+			<termin>
+				<art ref ="U"> </art>
+				<dozent>?</dozent>
+				<raum>2/D316A</raum>
+				<tag>Freitag</tag>
+				<zeit>13:45-15:15</zeit>
+				<woche woc = "B"/>
+			</termin>
+			<betreut prof = "prowi" />
+		</lv>
+		
+	
+		<lv id="lv2">
+			<name>Mathematik II</name>
+			<termin>
+				<art ref ="V"> </art>
+				<dozent>Daniel Rudolf</dozent>
+				<raum>2/C104</raum>
+				<tag>Montag</tag>
+				<zeit>11:30-13:00</zeit>
+				<woche woc = "W"/>
+			</termin>
+			<termin>
+				<art ref ="U"> </art>
+				<dozent>Thomas Kalmas</dozent>
+				<raum>2/W059</raum>
+				<tag>Dienstag</tag>
+				<zeit>11:30-13:00</zeit>
+				<woche woc = "B"/>
+			</termin>
+			<betreut prof = "wimathe"/>
+		</lv>	
+	
+	
+		<lv id="lv3">
+			<name>Mikrooekonomie</name>
+			<termin>
+				<art ref ="V"> </art>
+				<dozent>Fritz Helmedag</dozent>
+				<raum>2/N115</raum>
+				<tag>Montag</tag>
+				<zeit>13:45-15:15</zeit>
+				<woche woc = "W"/>
+			</termin>
+			<termin>
+				<art ref ="V"> </art>
+				<dozent>Fritz Helmedag</dozent>
+				<raum>?</raum>
+				<tag>Mittwoch</tag>
+				<zeit>11:30-13:00</zeit>
+				<woche woc = "W"/>
+			</termin>
+			<termin>
+				<art ref ="U"> </art>
+				<dozent>Fabian Richter</dozent>
+				<raum>2/D221</raum>
+				<tag>Montag</tag>
+				<zeit>15:30-17:00</zeit>
+				<woche woc = "A"/>
+			</termin>
+			<betreut prof = "mikro"/>
+		</lv>	
+		
+	
+		<lv id="lv4">
+			<name>Geschaeftsprozessmodellierung und -management</name>
+			<termin>		
+				<art ref ="V"> </art>
+				<dozent>Babara Dinter</dozent>
+				<raum>2/N010</raum>
+				<tag>Dienstag</tag>
+				<zeit>17:15-18:45</zeit>
+				<woche woc = "W"/>
+			</termin>
+			<termin>
+				<art ref ="U"> </art>
+				<dozent>Robert Krawatzeck</dozent>
+				<raum>2/W031</raum>
+				<tag>Montag</tag>
+				<zeit>15:30-17:00</zeit>
+				<woche woc = "B"/>
+			</termin>
+			<betreut prof = "winfoI"/>
+		</lv>	
+	
+	
+		<lv id="lv5">
+			<name>Grundlagen des Marketing</name>
+			<termin>
+				<art ref ="V"> </art>
+				<dozent>Cornelia Zanger</dozent>
+				<raum>2/N115</raum>
+				<tag>Dienstag</tag>
+				<zeit>9:15-10:45</zeit>
+				<woche woc = "W"/>
+			</termin>
+			<termin>
+				<art ref ="U"> </art>
+				<dozent>Sophie Ruckau</dozent>
+				<raum>2/D301</raum>
+				<tag>Dienstag</tag>
+				<zeit>11:30-13:00</zeit>
+				<woche woc = "A"/>
+			</termin>
+			<betreut prof = "marketing"/>
+		</lv>	
+	
+		<lv id="lv6">
+			<name>Kosten- und Erloesrechung</name>
+			<termin>
+				<art ref ="V"> </art>
+				<dozent>Uwe Goetze</dozent>
+				<raum>2/N115</raum>
+				<tag>Donnerstag</tag>
+				<zeit>9:15-10:45</zeit>
+				<woche woc = "W"/>
+			</termin>	
+			<termin>	
+				<art ref ="U"> </art>
+				<dozent>Christian Gummrich</dozent>
+				<raum>2/D301</raum>
+				<tag>Dienstag</tag>
+				<zeit>13:45-15:15</zeit>
+				<woche woc = "B"/>
+			</termin>
+			<betreut prof = "unternehmensrechnung"/>
+		</lv>	
+	
+	
+		<lv id="lv7">
+			<name>Recht der Information und Kommunikation</name>
+			<termin>
+				<art ref ="V"> </art>
+				<dozent>Stefan Korte</dozent>
+				<raum>2/N111</raum>
+				<tag>Dienstag</tag>
+				<zeit>15:30-17:00</zeit>
+				<woche woc = "W"/>
+			</termin>
+			<termin>
+				<art ref ="U"> </art>
+				<dozent>?</dozent>
+				<raum>?</raum>
+				<tag>?</tag>
+				<zeit>?</zeit>
+				<woche woc = "W"/>
+			</termin>
+			<betreut prof = "wirtschaftsrecht"/>
+		</lv>	
+	
+		<lv id="lv8">
+			<name>Wirtschaftsinformatik Praktikum</name>
+			<termin>
+				<art ref ="P"> </art>
+				<dozent>Jens Poenisch</dozent>
+				<raum>2/W031</raum>
+				<tag>Mittwoch</tag>
+				<zeit>9:15-10:45</zeit>
+				<woche woc = "W"/>
+			</termin>	
+			<betreut prof = "winfoI" />
+		</lv>	
+		
+		<lv id="lv9">
+			<name>Datenstrukturen</name>
+			<termin>
+				<art ref ="V"> </art>
+				<dozent>Frank Seifert</dozent>
+				<raum>1/201</raum>
+				<tag>Mittwoch</tag>
+				<zeit>13:30-15:00</zeit>
+				<woche woc = "W"/>
+			</termin>
+			<termin>
+				<art ref ="V"> </art>
+				<dozent>Frank Seifert</dozent>
+				<raum>1/316</raum>
+				<tag>Freitag</tag>
+				<zeit>11:30-13:00</zeit>
+				<woche woc = "W"/>
+			</termin>
+			<termin>
+				<art ref ="U"> </art>
+				<dozent>Jens Poenisch</dozent>
+				<raum>1/375</raum>
+				<tag>Freitag</tag>
+				<zeit>9:15-10:45</zeit>
+				<woche woc = "W"/>
+			</termin>
+			<betreut prof = "dvs"/>
+		</lv>	
+	
+	</listevl>
+</doc>

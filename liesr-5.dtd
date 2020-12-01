@@ -1,0 +1,45 @@
+<!ELEMENT doc (listeprof, listevl)>
+
+<!ELEMENT listeprof (prof+)>
+
+<!ELEMENT prof (name, vorsitz, vertretung?, kontakt)>
+<!ATTLIST prof id ID #REQUIRED 
+	       prof NMTOKEN #IMPLIED>
+
+<!ELEMENT bezeichnung (#PCDATA)>
+<!ELEMENT vorsitz (#PCDATA)>
+<!ELEMENT vertretung (#PCDATA)>
+<!ELEMENT kontakt (#PCDATA)>
+
+<!ELEMENT listevl (typ+, wocheart+, lv+)>
+
+<!ELEMENT typ (#PCDATA)>
+<!ATTLIST typ id ID #REQUIRED
+              ref NMTOKEN #IMPLIED>
+
+<!ELEMENT wocheart (#PCDATA)>
+<!ATTLIST wocheart id ID #REQUIRED 
+	        woc NMTOKEN #IMPLIED>
+
+<!ELEMENT lv (name, termin+, betreut)>
+<!ATTLIST lv id ID #REQUIRED 
+             ref NMTOKEN #IMPLIED>
+
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT termin (art, dozent, raum, tag, zeit, woche)>
+
+<!ELEMENT art (#PCDATA)>
+<!ATTLIST art ref IDREF #REQUIRED>
+<!ELEMENT dozent (#PCDATA)>
+<!ELEMENT raum (#PCDATA)>
+<!ELEMENT tag (#PCDATA)>
+<!ELEMENT zeit (#PCDATA)>
+<!ELEMENT woche (#PCDATA)>
+<!ATTLIST woche woc IDREF #REQUIRED>
+
+<!ELEMENT betreut (#PCDATA)>
+<!ATTLIST betreut prof IDREF #REQUIRED>
+
+
+
+
